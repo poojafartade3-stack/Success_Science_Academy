@@ -13,4 +13,4 @@ class Teacher(Base):
     phone = Column(String, nullable=True)
     hire_date = Column(Date, default=date.today)
 
-    user = relationship("User", back_populates="teacher")
+    # user = relationship("User", back_populates="teacher")
